@@ -1,0 +1,52 @@
+/**
+ * @file The CSS file for this application.
+ *       Included by index.tsx
+ * @author Sam Fan(fanxwsam@gmail.com)
+ * @since Jan 12 2019
+ */
+
+$background-grey: #f3f3f3;
+$button-grey: #5e5e5e;
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.3rem;
+  background-color: $background-grey;
+}
+
+button {
+  border: none;  
+  font-size: 1.3rem;
+  border-bottom: 4px solid #ccc;
+  margin-left: .5rem;
+  cursor: pointer;
+  color: $button-grey;
+  border-radius: 10px;
+  font-weight:300;
+  padding: 8px 8px;
+  margin:8px 8px;
+}
+
+
+.msg-input {
+  padding: .5rem;
+  font-size: 1.3rem;
+  margin: 1rem 0;
+  border-radius: 10px;
+}
+
+.opt-hint
+{
+  padding: .5rem;
+  font-size: 1.3rem;
+  margin: 1rem 0;
+  color: red;
+}
+
+ul{margin:0;padding:0;list-style:none;}  
+
+.table-row-group{display:table-row-group;}  
+.table-row{display:table-row;}  
+.table-row-group .table-row:hover,.table-footer-group .table-row:hover{background:#f6f6f6;}  
+.table-cell{display:table-cell;padding:0 5px;border:1px solid #ccc; width:200; }  
