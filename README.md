@@ -1,8 +1,6 @@
-# Edalex Developer Challenge
-
 ## Overview
 
-The answer has developed a simple message board web app. It consists of two parts:
+I developed a simple message board web app. It consists of two parts:
 
 * A [React](https://reactjs.org/) front-end written in [Typescript](https://www.typescriptlang.org/)
 * A [Spring Boot](https://spring.io/projects/spring-boot) REST API back-end written in Java
@@ -10,7 +8,7 @@ The answer has developed a simple message board web app. It consists of two part
 To test the challenge answer and check whether it meets the requirements or not.
 Before starting, make sure you can successfully start the server and client as detailed in the 'Quick start'.
 
-If you have any questions, please kindly contact with Sam Fan(fanxwsam@gmail.com, 0431288362)
+If you have any questions, please kindly contact with Sam Fan(fanxwsam@gmail.com)
 
 ## Quick start
 
@@ -52,7 +50,7 @@ After a few moments, you could be able to visit the client in your browser at:
 
 ## Meeting the Requirements
 
-The completed challenge includes:
+The version includes:
 
 * Display a list of messages ordered with the most recent at the top
 * Allow a user to add a message
@@ -67,12 +65,3 @@ I just deliver a bare bones, plain HTML UI. I will try Material-UI next week.
 
 I save data by using a JSON file called message.json which is located in directory '/src' for
 persisting the data.
-
-### Something needs to be mentioned
-
-In only three days, I picked up some related skills of react, node, typescript and gradle. I installed a whole development environment by myself, 
-and used VSCode for Typescript, Eclipse for Spring Framework to complete the task.
-
-Thanks for your time.
-
-Enjoy it :)
